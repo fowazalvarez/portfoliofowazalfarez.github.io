@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Pushster&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Lato", sans-serif;
+}
+
+.offset::before {
+  display: block;
+  content: "";
+  height: 6rem;
+}
+
+.navbar {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  background: rgba(0, 0, 0, 0.6) !important;
+  padding: 20px 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  padding-left: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #1ebba3;
+}
+
+.heading-content {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  max-width: 100%;
+}
+
+.heading-content h5 {
+  font-size: 4em;
+  font-weight: 300;
+  color: #fff;
+  font-family: monospace;
+}
+
+.heading-content h1 {
+  font-size: 5em;
+  font-weight: bolder;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.heading-content p {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: lighter;
+  color: #fff;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  transition: 0.3s;
+}
+
+a:hover {
+  transition: 0.3s;
+}
+
+.btn1 {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.7;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.btn1:hover {
+  opacity: 1;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.instagram {
+  background-color: tomato;
+  margin-right: 10px;
+}
+
+.whatsapp {
+  background-color: #21ac21;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #008cff;
+  margin-right: 10px;
+}
+
+.youtube {
+  background-color: #c70707;
+  margin-right: 10px;
+}
+
+.linkedin {
+  background-color: #0f2edc;
+  margin-right: 10px;
+}
+
+.btn-wrapper {
+  margin: 10px 0;
+}
+
+.fa {
+  margin-right: 10px;
+}
+
+/* About */
+#about .btn {
+  border: 2px solid red;
+  width: 40%;
+  padding: 15px 22px;
+  background: #000;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#about .btn a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#about .btn:hover {
+  border: 2px solid #1ebba3;
+}
+
+/* Akhir dari About */
+
+/* Skills */
+
+.carousel-item {
+  width: 50%;
+}
+
+/* AKhir dari Skills */
+
+/* Media Query */
+@media screen and (max-width: 970px) {
+  /* Tablet */
+  .navbar {
+    letter-spacing: 0.1rem;
+    padding: 7px 0;
+  }
+  .heading-content {
+    top: 20%;
+  }
+  .heading-content h5 {
+    font-size: 2em;
+  }
+
+  .heading-content h1 {
+    font-size: 3em;
+  }
+
+  .heading-content p {
+    font-size: 0.8em;
+  }
+  .btn1 {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 672px) {
+  /* Smartphone */
+  .navbar {
+    letter-spacing: 0.1rem;
+    padding: 5px 0;
+  }
+  .heading-content {
+    top: 10%;
+  }
+  .heading-content h5 {
+    font-size: 1em;
+  }
+
+  .heading-content h1 {
+    font-size: 2em;
+  }
+
+  .heading-content p {
+    font-size: 0.5em;
+  }
+  .btn1 {
+    width: 30%;
+  }
+}
